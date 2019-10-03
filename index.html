@@ -76,6 +76,8 @@
                 return "<h3>ポジティブ</h3>"
             } else if (params === 0.5) {
                 return "<h3>問題発言？？？</h3>"
+            } else if (params < 0.3) {
+                return "<h3>超ネガティブ。。。</h3>"
             } else {
                 return "<h3>ネガティブ</h3>"
             }
